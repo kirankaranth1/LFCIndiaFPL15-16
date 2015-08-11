@@ -23,17 +23,29 @@ def get_score(id):
     name_xpath=".//*[@id='ism']/section[2]/h1"
  
     t_points=int(tree.xpath(points_xpath)[0].text.strip(' \t\n\r'))
-    print(t_points)
+    #print(t_points)
 
     name=tree.xpath(name_xpath)[0].text.strip(' \t\n\r')
-    print(name)
+    #print(name)
 
     try:
         transfers=int(re.findall('\d+', tree.xpath(deductions_xpath)[0].text.strip(' \t\n\r'))[1])
     except IndexError,e :
         transfers=0;
-    print(transfers)    
+    score=str(t_points-transfers)    
+    #print(transfers)
+    print("FPL name: "+name+" Score: "+score)    
+    print("FPL name: "+name+" Score: "+score,file=f)  
 
 
 gw=1
-get_score(373923)
+f=open("gw1.txt",'w')
+for line in open('players-list.txt'):
+    line=str(line.strip(' \t\n\r'))
+    try:
+        id=int(re.findall('\d+', line)[0].strip(' \t\n\r'))
+        get_score(id)
+
+    except IndexError,e :
+        print(line)
+        print(line,file=f)
