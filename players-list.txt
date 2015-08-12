@@ -6,7 +6,7 @@ Manager - Subhagata Chakraborty 267073
  Jayadev Challapally : 70505
  Harsh Garg : 544105
  Praveen Kumar : 633472 
- Nikhil Grover : 1279337
+ Nikhil Grover : 1279377
 
 Aston Villa
 Manager - Dhruvan Sharma 666640
@@ -14,7 +14,7 @@ Pratyush Sahoo: 409893
 Adarsh Kamath: 88605
 Sunil Kini: 657493
 Yogesh Nagarajan: 454518
-Ranjith Joy: 601698
+Ranjith Joy: 138528
 Shivam Dabas: 500711
 Ashish Kamath 784932
 
@@ -132,7 +132,7 @@ Abhishek Belsare - 4848
 Stoke City
 Manager - Rohan Ghosh 169878
  Gowtham Raj - 504389
- Rajdeep Roy - 601698
+ Rajdeep Roy 601698
  Sarath Kuttappan - 1725213
  Chirag N Malkan - 27523
  Mayank Singh Mudgal - 484913

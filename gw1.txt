@@ -6,7 +6,7 @@ FPL name: Ayan Banerjee Score: 40
 FPL name: Jayadev Challapally Score: 39
 FPL name: Harsh Garg Score: 47
 FPL name: PRAVEEN KUMAR Score: 35
-FPL name: FAKHRULLAH ZULKAFLI Score: 29
+FPL name: Nikhil Grover Score: 26
 
 Aston Villa
 FPL name: Dhruvan Sharma Score: 30
@@ -14,7 +14,7 @@ FPL name: Pratyush Kumar Sahoo Score: 30
 FPL name: Adarsh Kamath Score: 30
 FPL name: Sunil Kini Score: 30
 FPL name: Yogesh Nagarajan Score: 23
-FPL name: Rajdeep Roy Score: 38
+FPL name: Ranjith Joy Score: 36
 FPL name: Shivam Dabas Score: 35
 FPL name: Ashish Kamath Score: 23
 
