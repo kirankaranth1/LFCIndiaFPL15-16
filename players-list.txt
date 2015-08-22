@@ -1,4 +1,4 @@
-Arsenal
+Arsenal FC
 Manager - Subhagata Chakraborty 267073
  Devan Nair : 224873
  Harshvardhan Yadav : 130669  
@@ -8,7 +8,7 @@ Manager - Subhagata Chakraborty 267073
  Praveen Kumar : 633472 
  Nikhil Grover : 1279377
 
-Aston Villa
+Aston Villa FC
 Manager - Dhruvan Sharma 666640
 Pratyush Sahoo: 409893
 Adarsh Kamath: 88605
@@ -19,7 +19,7 @@ Shivam Dabas: 500711
 Ashish Kamath 784932
 
 
-Bournemouth
+AFC Bournemouth
 Manager - Viraj Shahv 694657
  Ishan Joshi: 760270
  Gopalakrishanan N: 700075
@@ -29,7 +29,7 @@ Manager - Viraj Shahv 694657
  Pavan Raga: 757741
  Yadnesh Kuveskar: 600153
 
-Chelsea
+Chelsea FC
 Manager - Dhanil Parwani 420918
  Satpal Daryanani - 415488
  Ciril John -  6150
@@ -39,7 +39,7 @@ Manager - Dhanil Parwani 420918
  Ankit Kuveshkar - 716774 
  Mohit Pinkman - 387810
 
-Crystal Palace
+Crystal Palace FC
 Manager - Fahad Zaman 451481
  Sugeeth Gopinathan - 400280
  Rohan Fernandes - 185561
@@ -49,7 +49,7 @@ Manager - Fahad Zaman 451481
  Vedant Redkar - 224694
  Farid Khan - 146777
 
-Everton
+Everton FC
 Manager - Sahil Sankhe 712220
  Abhishek Bare - 573785
  Parth Gada - 229101
@@ -59,7 +59,7 @@ Manager - Sahil Sankhe 712220
  Viggie Devadiga- 164761
  Fenil Shah- 276912
 
-Leeds United F.C.
+Manchester United FC
 Manager -Siddhesh Phansekar 133819
  Kiran Karanth 373923
  Naveen Ravi Joseph 223322
@@ -69,7 +69,7 @@ Manager -Siddhesh Phansekar 133819
  Rajith Raj 38637
  Sai Charan 381802
 
-Leicester City
+Leicester City FC
 Manager - Nihar Joshi 67918
  Jugal Yadav: 576749
  Abhilash Nanduri: 553585
@@ -79,7 +79,7 @@ Manager - Nihar Joshi 67918
  Surat Kop (Aaqib Mirza) :  559356
  Aamir Bakshi :  1034919
 
-Liverpool
+Liverpool FC
 Manager - Aayush Pangotra 121140
  Akshay Malhotra - 486019
  Roomi Tarik - 385139
@@ -89,7 +89,7 @@ Manager - Aayush Pangotra 121140
  Avi Bhagat - 71309
  Yashasvi Lv - 681059
 
-Manchester City
+Manchester City FC
 Manager - Kirtan Viramgami 680624
     Vatsal Viramgami - 680195
     Bhavik Singh Minas - 629107
@@ -99,7 +99,7 @@ Manager - Kirtan Viramgami 680624
     Alan S Pillai - 168390
     Dishant Deepak - 506683
 
-Newcastle United
+Newcastle United FC
 Manager - Kumar Shubha 373857
  Bala Mohan - 232083
  Ghanshyam Shenoy - 582373
@@ -109,7 +109,7 @@ Manager - Kumar Shubha 373857
  Yogaraj Kumar - 637582
  Fahad Ahmed Shah - 450559
 
-Norwich City
+Norwich City FC
 Manager - SHOUGAT ANURAG 130625
  Arvind Neelakanthan- 40295
  Jagdeesh Rajagopalan- 548392
@@ -119,7 +119,7 @@ Manager - SHOUGAT ANURAG 130625
  Raghav Prasad - 3725
  Sunil Motihar - 800979
 
-Southampton
+Southampton FC
 Manager - Prathamesh Karve 377170
  Aaditya Narayan - 519546
  Suraj Krishnan - 12813
@@ -129,7 +129,7 @@ Manager - Prathamesh Karve 377170
  Aniruddha (Anya) Warang - 394901 
 Abhishek Belsare - 4848
 
-Stoke City
+Stoke City FC
 Manager - Rohan Ghosh 169878
  Gowtham Raj - 504389
  Rajdeep Roy 601698
@@ -139,7 +139,7 @@ Manager - Rohan Ghosh 169878
  Sriragh Karat - 49638
  Aman Gerrard Pandey - 240599
 
-Sunderland
+Sunderland AFC
 Manager - Saurav Chakravorty 260641
  Aksh Singh - 302749
  Manish Sharma - 703582
@@ -149,7 +149,7 @@ Manager - Saurav Chakravorty 260641
  Shivam Kalra - 716262
  Anirudh Dubey - 749178
 
-Swansea City
+Swansea City FC
 Manager - Deepak Talluri 13552
  Mohit Hinduja - 224163
  Shikhar Singh - 68158
@@ -159,7 +159,7 @@ Manager - Deepak Talluri 13552
  Rajesh Kumar Meena - 391906
  John Ozorio - 383025
 
-Tottenham Hotspur
+Tottenham Hotspur FC
 Manager: Bharath Kumar 686926
  Lakshya Duhan: 441507
  Prashant Kamra: 24336
@@ -169,7 +169,7 @@ Manager: Bharath Kumar 686926
  Devasheesh Pillai: 770321
  Kunal Mhadgut: 603793
 
-Watford
+Watford FC
 Manager- Chirag NJ 516509
  Nischal Prakash - 513551
  Pallav Mistry- 541710
@@ -179,7 +179,7 @@ Manager- Chirag NJ 516509
  Raj Shah - 511783
  Akshay patil 164189
 
-West Bromwich Albion
+West Bromwich Albion FC
 Manager - Muzaiyen S.M.Bijli 657950
  Sagar Udayan Shah - 482968
  Pratik Shah - 375448
@@ -189,7 +189,7 @@ Manager - Muzaiyen S.M.Bijli 657950
  Parth Desai - 98245
  Sandeep Deshpande - 657767
 
-West Ham United
+West Ham United FC
 Manager - Abhinav Gupta 378969
  Kaushik das - 67072
  Akshay Iyer- 626344

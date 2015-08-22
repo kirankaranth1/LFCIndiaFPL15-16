@@ -11,8 +11,17 @@ import math
 
 
 def get_score(id):
+
     url="http://fantasy.premierleague.com/entry/"+str(id)+"/event-history/"+str(gw)+"/"
-    page = requests.get(url)
+    while True:
+        try:
+            page = requests.get(url)
+        except requests.ConnectionError:
+            continue
+        break
+
+    
+    #page = requests.get(url)
     tree = html.parse(StringIO(page.text)).getroot()
 
     points_xpath=".//*[@id='ism']/section[1]/div[2]/div[1]/div[2]/div/div[1]/div/div[1]/div"
@@ -79,7 +88,30 @@ def print_score(team):
     t_score=t_score-max_score+(hw*max_score)+captain+(0.5*vc)
 
     #print("Total score :"+str(t_score)+"\n")
-    print("Total score :"+str(t_score)+"\n",file=logfile)
+    print("Total score :"+str(t_score)+" ~"+str(round(t_score))+"\n",file=logfile)
+    return round(t_score) 
+
+def calcresult(n):
+    score=(int(math.ceil(n / 15.0)) * 15)/15
+    return score
+
+def calcbonus(m):
+    if m<121:
+        return 0
+    elif m>= 121 and m<181:
+        return 1
+    elif m>= 181 and m<226: 
+        return 2
+    else:
+        return 3    
+
+
+def getfix(gw):
+    res = requests.get("http://www.football-data.org/soccerseasons/398/fixtures?matchday="+str(gw))
+    result=json.loads(res.text)
+    return result
+
+
 
 
 gw=2
@@ -88,46 +120,73 @@ print("Calculating for gameweek "+str(gw))
 ans=raw_input("Do you wish to continue? (y/n)")
 if ans=='n':
     sys.exit()
-logfile=open('Team_Scores_gw'+str(gw),'w')
+logfile=open('Team_Scores_gw'+str(gw)+'.txt','w')
+fixtures=getfix(gw)
+ars=get_team("Arsenal FC")+[7,4,'a']#
+av=get_team("Aston Villa FC")+[1,2,'h']
+bnm=get_team("AFC Bournemouth")+[5,4,'a']#
+chl=get_team("Chelsea FC")+[3,6,'a']#
+cp=get_team("Crystal Palace FC")+[8,8,'h']#
+eve=get_team("Everton FC")+[5,4,'a']#
+leeds=get_team("Manchester United FC")+[1,2,'a']#
+leic=get_team("Leicester City FC")+[2,7,'a']#
+kop=get_team("Liverpool FC")+[1,6,'h']#
+cty=get_team("Manchester City FC")+[8,7,'h']#
+newc=get_team("Newcastle United FC")+[8,6,'a']#
+nrwch=get_team("Norwich City FC")+[5,1,'a']#
+sou=get_team("Southampton FC")+[5,7,'h']#
+stk=get_team("Stoke City FC")+[8,5,'a']#
+sun=get_team("Sunderland AFC")+[6,3,'h']#
+swn=get_team("Swansea City FC")+[5,4,'h']#
+sprs=get_team("Tottenham Hotspur FC")+[1,4,'h']#
+wtf=get_team("Watford FC")+[3,8,'h']#
+wb=get_team("West Bromwich Albion FC")+[8,2,'a']#
+wh=get_team("West Ham United FC")+[4,1,'h']#
 
-ars=get_team("Arsenal")+[7,6,'a']#
-av=get_team("Aston Villa")+[1,2,'h']#
-bnm=get_team("Bournemouth")+[5,3,'a']#
-chl=get_team("Chelsea")+[3,8,'a']#
-cp=get_team("Crystal Palace")+[8,2,'h']#
-eve=get_team("Everton")+[5,8,'a']#
-leeds=get_team("Leeds United")+[1,4,'a']#
-leic=get_team("Leicester")+[2,1,'a']#
-kop=get_team("Liverpool")+[1,3,'h']#
-cty=get_team("Manchester City")+[8,6,'h']#
-newc=get_team("Newcastle United")+[8,1,'a']#
-nrwch=get_team("Norwich City")+[5,2,'a']
-sou=get_team("Southampton")+[5,2,'h']#
-stk=get_team("Stoke City")+[8,6,'a']#
-sun=get_team("Sunderland")+[6,1,'h']#
-swn=get_team("Swansea City")+[5,1,'h']
-sprs=get_team("Tottenham Hotspur")+[1,2,'h']#
-wtf=get_team("Watford")+[3,6,'h']#
-wb=get_team("West Bromwich Albion")+[8,2,'a']#
-wh=get_team("West Ham United")+[4,1,'h']
+dict={"Manchester United FC":0,"Swansea City FC":0,"Leicester City FC":0,"Everton FC":0,"West Ham United FC":0,"Tottenham Hotspur FC":0,"West Bromwich Albion FC":0,"Sunderland AFC":0,"Stoke City FC":0,"Aston Villa FC":0,"AFC Bournemouth":0,"Watford FC":0,"Arsenal FC":0,"Crystal Palace FC":0,"Liverpool FC":0,"Southampton FC":0,"Newcastle United FC":0,"Manchester City FC":0,"Norwich City FC":0,"Chelsea FC":0}
 
-print_score(ars)
-print_score(av)
-print_score(bnm)
-print_score(chl)
-print_score(cp)
-print_score(eve)
-print_score(leeds)
-print_score(leic)
-print_score(kop)
-print_score(cty)
-print_score(newc)
-print_score(nrwch)
-print_score(sou)
-print_score(stk)
-print_score(sun)
-print_score(swn)
-print_score(sprs)
-print_score(wtf)
-print_score(wb)
-print_score(wh)
+
+dict["Arsenal FC"]=print_score(ars)
+dict["Aston Villa FC"]=print_score(av)
+dict["AFC Bournemouth"]=print_score(bnm)
+dict["Chelsea FC"]=print_score(chl)
+dict["Crystal Palace FC"]=print_score(cp)
+dict["Everton FC"]=print_score(eve)
+dict["Leicester City FC"]=print_score(leic)
+dict["Liverpool FC"]=print_score(kop)
+dict["Manchester United FC"]=print_score(leeds)
+dict["Manchester City FC"]=print_score(cty)
+dict["Newcastle United FC"]=print_score(newc)
+dict["Norwich City FC"]=print_score(nrwch)
+dict["Southampton FC"]=print_score(sou)
+dict["Stoke City FC"]=print_score(stk)
+dict["Sunderland AFC"]=print_score(sun)
+dict["Swansea City FC"]=print_score(swn)
+dict["Tottenham Hotspur FC"]=print_score(sprs)
+dict["Watford FC"]=print_score(wtf)
+dict["West Bromwich Albion FC"]=print_score(wb)
+dict["West Ham United FC"]=print_score(wh)
+
+
+g=open("Scores_gw"+str(gw)+".txt",'w')
+for fix in fixtures:
+    hscore=dict[fix['homeTeam']]
+    ascore=dict[fix['awayTeam']]
+    if(hscore>ascore):
+        fix['goalsAwayTeam']=0
+        diff=hscore-ascore
+        fix['goalsHomeTeam']=calcresult(diff)
+    elif(hscore==ascore):
+        fix['goalsAwayTeam']=0
+        fix['goalsHomeTeam']=0
+        diff=0
+    else:
+        
+        diff=ascore-hscore
+        fix['goalsAwayTeam']=calcresult(diff)
+        fix['goalsHomeTeam']=0
+        
+    print(str(fix['homeTeam'])+" vs "+str(fix['awayTeam'])+"\n"+str(dict[fix['homeTeam']])+"-"+str(dict[fix['awayTeam']])+"\nDiff="+str(diff)+"\nBonus points:"+str(calcbonus(diff))+"\n"+str(fix['goalsHomeTeam'])+"-"+str(fix['goalsAwayTeam']),file=g)
+
+g.close()        
+
