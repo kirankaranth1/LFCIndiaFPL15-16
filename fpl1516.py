@@ -10,6 +10,19 @@ import json
 import math
 
 
+def isHome(teamname,fixtures):
+    for fixture in fixtures:
+        #print fixture
+        if teamname in fixture['homeTeam']:
+            #print(result[gw+1])
+            #break
+            return True
+        elif teamname in fixture['awayTeam']:
+            return False
+        else:
+            continue
+
+
 def get_score(id):
 
     url="http://fantasy.premierleague.com/entry/"+str(id)+"/event-history/"+str(gw)+"/"
@@ -70,7 +83,7 @@ def print_score(team):
     print("Team: "+team[0],file=logfile)
     print("Captain: "+names[(team[9]-1)],file=logfile)
     print("Vice Captain: "+names[(team[10]-1)],file=logfile)
-    if team[11]=='h':
+    if isHome(team[0],fixtures):
         print("Home advantage : YES",file=logfile)
         hw=1.2
     else:
@@ -114,7 +127,7 @@ def getfix(gw):
 
 
 
-gw=2
+gw=3
 
 print("Calculating for gameweek "+str(gw))
 ans=raw_input("Do you wish to continue? (y/n)")
@@ -122,25 +135,25 @@ if ans=='n':
     sys.exit()
 logfile=open('Team_Scores_gw'+str(gw)+'.txt','w')
 fixtures=getfix(gw)
-ars=get_team("Arsenal FC")+[7,4,'a']#
-av=get_team("Aston Villa FC")+[1,2,'h']
+ars=get_team("Arsenal FC")+[7,4,'h']#
+av=get_team("Aston Villa FC")+[1,4,'a']
 bnm=get_team("AFC Bournemouth")+[5,4,'a']#
 chl=get_team("Chelsea FC")+[3,6,'a']#
-cp=get_team("Crystal Palace FC")+[8,8,'h']#
-eve=get_team("Everton FC")+[5,4,'a']#
-leeds=get_team("Manchester United FC")+[1,2,'a']#
-leic=get_team("Leicester City FC")+[2,7,'a']#
-kop=get_team("Liverpool FC")+[1,6,'h']#
-cty=get_team("Manchester City FC")+[8,7,'h']#
+cp=get_team("Crystal Palace FC")+[8,1,'h']#
+eve=get_team("Everton FC")+[5,4,'h']#
+leeds=get_team("Manchester United FC")+[1,2,'h']#
+leic=get_team("Leicester City FC")+[2,7,'h']#
+kop=get_team("Liverpool FC")+[1,6,'a']#
+cty=get_team("Manchester City FC")+[8,7,'a']#
 newc=get_team("Newcastle United FC")+[8,6,'a']#
-nrwch=get_team("Norwich City FC")+[5,1,'a']#
-sou=get_team("Southampton FC")+[5,7,'h']#
+nrwch=get_team("Norwich City FC")+[5,1,'h']#
+sou=get_team("Southampton FC")+[5,7,'a']#
 stk=get_team("Stoke City FC")+[8,5,'a']#
 sun=get_team("Sunderland AFC")+[6,3,'h']#
-swn=get_team("Swansea City FC")+[5,4,'h']#
-sprs=get_team("Tottenham Hotspur FC")+[1,4,'h']#
+swn=get_team("Swansea City FC")+[5,4,'a']#
+sprs=get_team("Tottenham Hotspur FC")+[1,4,'a']#
 wtf=get_team("Watford FC")+[3,8,'h']#
-wb=get_team("West Bromwich Albion FC")+[8,2,'a']#
+wb=get_team("West Bromwich Albion FC")+[8,2,'h']#
 wh=get_team("West Ham United FC")+[4,1,'h']#
 
 dict={"Manchester United FC":0,"Swansea City FC":0,"Leicester City FC":0,"Everton FC":0,"West Ham United FC":0,"Tottenham Hotspur FC":0,"West Bromwich Albion FC":0,"Sunderland AFC":0,"Stoke City FC":0,"Aston Villa FC":0,"AFC Bournemouth":0,"Watford FC":0,"Arsenal FC":0,"Crystal Palace FC":0,"Liverpool FC":0,"Southampton FC":0,"Newcastle United FC":0,"Manchester City FC":0,"Norwich City FC":0,"Chelsea FC":0}
