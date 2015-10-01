@@ -15,10 +15,10 @@ from operator import itemgetter
 #    line=str(line)
 #    if re.match('^Vice Captain:', line):
 #       print(line)
-gw=5
+gw=7
 vcop=open('vc_op.txt', 'w')
 for i in range(1,gw+1):
-    File='Team_Scores_gw'+str(i)+'.txt'
+    File='TeamScores/Team_Scores_gw'+str(i)+'.txt'
     textfile = open(File, 'r')
     matches = []
     #reg = re.compile("^Vice Captain:")

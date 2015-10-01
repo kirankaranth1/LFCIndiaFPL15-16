@@ -127,7 +127,7 @@ def getfix(gw):
 
 
 
-gw=7
+gw=6
 
 print("Calculating for gameweek "+str(gw))
 ans=raw_input("Do you wish to continue? (y/n)")
@@ -135,24 +135,24 @@ if ans=='n':
     sys.exit()
 logfile=open('TeamScores/Team_Scores_gw'+str(gw)+'.txt','w')
 fixtures=getfix(gw)
-ars=get_team("Arsenal FC")+[6,1]#
-av=get_team("Aston Villa FC")+[4,5]#
-bnm=get_team("AFC Bournemouth")+[6,8]#
-chl=get_team("Chelsea FC")+[8,7]#
-cp=get_team("Crystal Palace FC")+[7,1]#
-eve=get_team("Everton FC")+[1,2]#
-leeds=get_team("Manchester United FC")+[4,5]#
-leic=get_team("Leicester City FC")+[5,1]#
-kop=get_team("Liverpool FC")+[7,1]#
-cty=get_team("Manchester City FC")+[4,3]#
-newc=get_team("Newcastle United FC")+[7,5]#
-nrwch=get_team("Norwich City FC")+[2,1]#
-sou=get_team("Southampton FC")+[6,3]#
-stk=get_team("Stoke City FC")+[4,3]#
-sun=get_team("Sunderland AFC")+[3,5]#
-swn=get_team("Swansea City FC")+[2,3]#
-sprs=get_team("Tottenham Hotspur FC")+[5,7]#
-wtf=get_team("Watford FC")+[1,5]#
+ars=get_team("Arsenal FC")+[6,7]#
+av=get_team("Aston Villa FC")+[4,6]#
+bnm=get_team("AFC Bournemouth")+[6,2]#
+chl=get_team("Chelsea FC")+[8,1]#
+cp=get_team("Crystal Palace FC")+[7,1]
+eve=get_team("Everton FC")+[1,6]#
+leeds=get_team("Manchester United FC")+[4,6]#
+leic=get_team("Leicester City FC")+[5,2]#
+kop=get_team("Liverpool FC")+[7,8]#
+cty=get_team("Manchester City FC")+[4,5]#
+newc=get_team("Newcastle United FC")+[7,4]#
+nrwch=get_team("Norwich City FC")+[2,3]#
+sou=get_team("Southampton FC")+[6,4]#
+stk=get_team("Stoke City FC")+[4,2]#
+sun=get_team("Sunderland AFC")+[3,8]#
+swn=get_team("Swansea City FC")+[2,6]#
+sprs=get_team("Tottenham Hotspur FC")+[5,8]#
+wtf=get_team("Watford FC")+[1,4]#
 wb=get_team("West Bromwich Albion FC")+[6,5]#
 wh=get_team("West Ham United FC")+[1,2]#
 
