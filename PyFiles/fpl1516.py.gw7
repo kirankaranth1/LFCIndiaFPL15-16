@@ -69,13 +69,6 @@ def get_team(name):
     for i in range(lno,lno+8):
         id=int(re.findall('\d+', lines[i])[0].strip(' \t\n\r'))
         team_list.append(id)
-    print("\n"+name)
-    for i in range(lno,lno+8):
-
-        print(str(i+1-lno)+". "+lines[i].strip())
-    captain=input("Enter Captain: ")
-    vc=input("Enter Vice Captain: ")
-    team_list=team_list+[captain,vc]
     return(team_list)    
 
 def print_score(team):
@@ -142,26 +135,26 @@ if ans=='n':
     sys.exit()
 logfile=open('TeamScores/Team_Scores_gw'+str(gw)+'.txt','w')
 fixtures=getfix(gw)
-ars=get_team("Arsenal FC")
-av=get_team("Aston Villa FC")
-bnm=get_team("AFC Bournemouth")
-chl=get_team("Chelsea FC")
-cp=get_team("Crystal Palace FC")
-eve=get_team("Everton FC")
-leic=get_team("Leicester City FC")
-kop=get_team("Liverpool FC")
-leeds=get_team("Manchester United FC")
-cty=get_team("Manchester City FC")
-newc=get_team("Newcastle United FC")
-nrwch=get_team("Norwich City FC")
-sou=get_team("Southampton FC")
-stk=get_team("Stoke City FC")
-sun=get_team("Sunderland AFC")
-swn=get_team("Swansea City FC")
-sprs=get_team("Tottenham Hotspur FC")
-wtf=get_team("Watford FC")
-wb=get_team("West Bromwich Albion FC")
-wh=get_team("West Ham United FC")
+ars=get_team("Arsenal FC")+[6,1]#
+av=get_team("Aston Villa FC")+[4,5]#
+bnm=get_team("AFC Bournemouth")+[6,8]#
+chl=get_team("Chelsea FC")+[8,7]#
+cp=get_team("Crystal Palace FC")+[7,1]#
+eve=get_team("Everton FC")+[1,2]#
+leeds=get_team("Manchester United FC")+[4,5]#
+leic=get_team("Leicester City FC")+[5,1]#
+kop=get_team("Liverpool FC")+[7,1]#
+cty=get_team("Manchester City FC")+[4,3]#
+newc=get_team("Newcastle United FC")+[7,5]#
+nrwch=get_team("Norwich City FC")+[2,1]#
+sou=get_team("Southampton FC")+[6,3]#
+stk=get_team("Stoke City FC")+[4,3]#
+sun=get_team("Sunderland AFC")+[3,5]#
+swn=get_team("Swansea City FC")+[2,3]#
+sprs=get_team("Tottenham Hotspur FC")+[5,7]#
+wtf=get_team("Watford FC")+[1,5]#
+wb=get_team("West Bromwich Albion FC")+[6,5]#
+wh=get_team("West Ham United FC")+[1,2]#
 
 dict={"Manchester United FC":0,"Swansea City FC":0,"Leicester City FC":0,"Everton FC":0,"West Ham United FC":0,"Tottenham Hotspur FC":0,"West Bromwich Albion FC":0,"Sunderland AFC":0,"Stoke City FC":0,"Aston Villa FC":0,"AFC Bournemouth":0,"Watford FC":0,"Arsenal FC":0,"Crystal Palace FC":0,"Liverpool FC":0,"Southampton FC":0,"Newcastle United FC":0,"Manchester City FC":0,"Norwich City FC":0,"Chelsea FC":0}
 
