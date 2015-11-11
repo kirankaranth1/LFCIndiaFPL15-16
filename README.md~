@@ -4,7 +4,7 @@ Web parser and score calculator for LFC India Fantasy League game 15-16
 Usage  
 ------
 1) fpl1516.py is the generic score parser and logger script. The fpl1516.py.ph* scripts are for sprcific gameweeks (with captains harcoded).  
-2) vccount.py reads the files in TeamScores folder and lists the number of times each player has been vice captain so far.  
+2) vccount.py reads the files in TeamScores folder and lists the numebr of times each player has been vice captain so far.  
 3) players-list.txt contains list of all players with their FPL IDs. This file is parsed by the main script.  
 
 Working  

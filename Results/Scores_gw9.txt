@@ -1,0 +1,50 @@
+Tottenham Hotspur FC vs Liverpool FC
+589.0-461.0
+Diff=128.0
+Bonus points:1
+9-0
+West Bromwich Albion FC vs Sunderland AFC
+523.0-420.0
+Diff=103.0
+Bonus points:0
+7-0
+Southampton FC vs Leicester City FC
+537.0-473.0
+Diff=64.0
+Bonus points:0
+5-0
+Crystal Palace FC vs West Ham United FC
+504.0-407.0
+Diff=97.0
+Bonus points:0
+7-0
+Chelsea FC vs Aston Villa FC
+467.0-494.0
+Diff=27.0
+Bonus points:0
+0-2
+Everton FC vs Manchester United FC
+569.0-498.0
+Diff=71.0
+Bonus points:0
+5-0
+Manchester City FC vs AFC Bournemouth
+462.0-570.0
+Diff=108.0
+Bonus points:0
+0-8
+Watford FC vs Arsenal FC
+621.0-523.0
+Diff=98.0
+Bonus points:0
+7-0
+Newcastle United FC vs Norwich City FC
+512.0-472.0
+Diff=40.0
+Bonus points:0
+3-0
+Swansea City FC vs Stoke City FC
+442.0-522.0
+Diff=80.0
+Bonus points:0
+0-6
