@@ -1,6 +1,6 @@
 Chelsea FC vs Liverpool FC
-608.0-535.0
-Diff=73.0
+604.0-535.0
+Diff=69.0
 Bonus points:0
 5-0
 Watford FC vs West Ham United FC
@@ -14,10 +14,10 @@ Diff=17.0
 Bonus points:0
 0-2
 Swansea City FC vs Arsenal FC
-595.0-564.0
-Diff=31.0
+595.0-571.0
+Diff=24.0
 Bonus points:0
-3-0
+2-0
 Newcastle United FC vs Stoke City FC
 604.0-557.0
 Diff=47.0

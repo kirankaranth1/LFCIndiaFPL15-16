@@ -198,10 +198,10 @@
  INVALID (VC multiplier not applied)
  Jithin Chandran
  Kaushik Das
- PRAVEEN KUMAR
+ Nikhil Grover
  Sunil Kini
  Viraj Shah
- Arvind Kumar
+ Mohit Singh Sengar
  Muhammad Ali
  Venkat Namdev
  harsh hadkia
@@ -238,3 +238,143 @@
  Nischal Prakash
  Parth Desai
  Aaditya Sundar
+ SUBHAGATA CHAKRABORTY
+ Ashish Kamath
+ Gopalakrishnan N
+ CIRIL JOHN
+ Sugeeth G.S
+ Ravi Manglani
+ harsh hadkia
+ Aayush Deep
+ ritesh sonthalia
+ Dhruv Taneja
+ Kumar  Shubham
+ Manish Dhiman
+ Abhishek Belsare
+ Rohan Ghosh
+ shivam kalra
+ Dhanush Shetty
+ Shawn Jose
+ Nischal Prakash
+ Parth Desai
+ Aaditya Sundar
+ Harsh Garg
+ Ashish Kamath
+ Ishan  Joshi
+ Mohit Singh Sengar
+ Sugeeth G.S
+ abhishek bare
+ urvik upadhyay
+ Roomi Tarik
+ sai charan
+ Alan S Pillai
+ Sai SAMARTH
+ jagdeesh rajagopalan
+ Shihas Hassan
+ Chirag Malkan
+ Akash Singh
+ John Ozorio
+ Lakshya Duhan
+ Pallav Mistry
+ Parth Desai
+ Aaditya Sundar
+ Harshvardhan Yadav
+ Dhruvan Sharma
+ Gopalakrishnan N
+ CIRIL JOHN
+ Fahad Zaman
+ Fenil Shah
+ keval shah
+ Biju Menon
+ Nikhil Kurhade
+ Vatsal Viramgami
+ Ghanshyam Shenoy
+ Arvind Neelakantan
+ Hrishikesh Chavan
+ Sriragh Karat
+ Charchit Jain
+ Dhanush Shetty
+ Bharath Kumar
+ Raj Shah
+ Parth Desai
+ Akshay Iyer
+ Nikhil Grover
+ Ashish Kamath
+ Viraj Shah
+ Mohit Singh Sengar
+ Ajith T.E
+ Parth Gada
+ Abhilash Nanduri
+ Aayush Deep
+ Kiran Karanth
+ Bhavik Singh Minhas
+ Fahad Shah
+ Manish Dhiman
+ Dev Parikh
+ Arog Moroniqk
+ Charchit Jain
+ John Ozorio
+ Devasheesh  Pillai
+ Nischal Prakash
+ PRATIK shah
+ Akshay Iyer
+ Harsh Garg
+ Ashish Kamath
+ Viraj Shah
+ satpal daryanani
+ Ajith T.E
+ Parth Gada
+ Aamir Bakshi
+ Aayush Deep
+ Naveen Joseph
+ Vatsal Viramgami
+ Kumar  Shubham
+ Manish Dhiman
+ Hrishikesh Chavan
+ sarath kuttappan
+ Akash Singh
+ Rajesh Meena
+ Prashant Kamra
+ aritakula tarun
+ PRATIK shah
+ Akshay Iyer
+ Devan N
+ Yogesh Nagarajan
+ Gopalakrishnan N
+ satpal daryanani
+ Farid  Khan
+ Venkat Namdev
+ Jugal Yadav
+ yashasvi lv
+ rajith m
+ Ashwin Ramesh
+ Sai SAMARTH
+ Arvind Neelakantan
+ ANYA WARANG
+ Sriragh Karat
+ Charchit Jain
+ Mahesh Kumar
+ Shawn Jose
+ Nischal Prakash
+ PRATIK shah
+ Akshay Iyer
+ Nikhil Grover
+ Shivam Dabas
+ yash thawani
+ CIRIL JOHN
+ Farid  Khan
+ Ravi Manglani
+ keval shah
+ Avi Bhagat
+ sai charan
+ Vatsal Viramgami
+ Sai SAMARTH
+ Manoj Sriram Narasimhan
+ Prathamesh Karve
+ Rajdeep Roy
+ Charchit Jain
+ Mohit Hinduja
+ Bharath Kumar
+ Chirag N J
+ PRATIK shah
+ Akshay Iyer
