@@ -133,7 +133,7 @@ Total score :511.8 ~512.0
 
 Team: West Ham United FC
 Captain: Kaushik Das
-Vice Captain: Akshay Iyer
+Vice Captain: Aaditya Sundar
 Home advantage : NO
 Team scores: [53, 55, 69, 48, 37, 60, 57, 48]
 Total score :516.5 ~517.0

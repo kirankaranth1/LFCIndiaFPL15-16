@@ -15,7 +15,7 @@ from operator import itemgetter
 #    line=str(line)
 #    if re.match('^Vice Captain:', line):
 #       print(line)
-gw=input("Until gw?: ")
+gw=int(sys.argv[1])
 vcop=open('vc_op.txt', 'w')
 for i in range(1,gw+1):
     File='TeamScores/Team_Scores_gw'+str(i)+'.txt'
