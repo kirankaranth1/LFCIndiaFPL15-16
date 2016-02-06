@@ -28,10 +28,10 @@ Total score :606.2 ~606.0
 
 Team: Crystal Palace FC
 Captain: Fahad Zaman
-Vice Captain: Fahad Zaman
+Vice Captain: Sugeeth G.S
 Home advantage : NO
 Team scores: [29, 64, 72, 30, 62, 57, 55, 74]
-Total score :486.5 ~487.0
+Total score :504.0 ~504.0
 
 Team: Everton FC
 Captain: Aditya Vikram Godawat
@@ -136,5 +136,5 @@ Captain: Kaushik Das
 Vice Captain: Aaditya Sundar
 Home advantage : NO
 Team scores: [53, 55, 69, 48, 37, 60, 57, 48]
-Total score :516.5 ~517.0
+Total score :509.5 ~510.0
 

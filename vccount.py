@@ -42,7 +42,7 @@ for line in file2:
         linecount[line] += 1
 #print(linecount)
 
-
+op_file=open("ViceCaptainCountGW"+str(gw)+".txt","w")
 template = "{0:25}{1:10}"
 for k,v in sorted(linecount.items(), key=itemgetter(1), reverse=True):
-    print(template.format(k,v))
+    print(template.format(k,v),file=op_file)

@@ -29,8 +29,8 @@ Diff=56.0
 Bonus points:0
 4-0
 Manchester United FC vs West Ham United FC
-718.0-517.0
-Diff=201.0
+718.0-510.0
+Diff=208.0
 Bonus points:2
 14-0
 Chelsea FC vs AFC Bournemouth
@@ -44,7 +44,7 @@ Diff=35.0
 Bonus points:0
 3-0
 Everton FC vs Crystal Palace FC
-579.0-487.0
-Diff=92.0
+579.0-504.0
+Diff=75.0
 Bonus points:0
-7-0
+5-0
