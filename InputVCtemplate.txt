@@ -31,7 +31,7 @@ AFC Bournemouth
 6. Srinath Rajamohan: 1208643
 7. Pavan Raga: 757741
 8. Yadnesh Kuveskar: 600153
-Enter Vice Captain: 4
+Enter Vice Captain: 6
 
 Chelsea FC
 1. Manager - Dhanil Parwani 420918
@@ -53,7 +53,7 @@ Crystal Palace FC
 6. Ashish Anand Khalkho - 947078
 7. Vedant Redkar - 224694
 8. Farid Khan - 146777
-Enter Vice Captain: 7
+Enter Vice Captain: 3
 
 Everton FC
 1. Manager - Sahil Sankhe 712220
@@ -108,7 +108,7 @@ Manchester City FC
 6. Namsheed Valiyakath - 36237
 7. Alan S Pillai - 168390
 8. Dishant Deepak - 506683
-Enter Vice Captain: 6
+Enter Vice Captain: 5
 
 Newcastle United FC
 1. Manager - Kumar Shubha 373857
@@ -141,7 +141,7 @@ Southampton FC
 6. Shihas Hassan - 85082
 7. Aniruddha (Anya) Warang - 394901
 8. Abhishek Belsare - 4848
-Enter Vice Captain: 3
+Enter Vice Captain: 7
 
 Stoke City FC
 1. Manager - Rohan Ghosh 169878
@@ -174,7 +174,7 @@ Swansea City FC
 6. Dhanush Shetty - 1472768
 7. Rajesh Kumar Meena - 391906
 8. John Ozorio - 383025
-Enter Vice Captain: 1
+Enter Vice Captain: 4
 
 Tottenham Hotspur FC
 1. Manager: Bharath Kumar 686926
