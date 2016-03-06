@@ -1,0 +1,222 @@
+Input VC template
+
+Arsenal FC
+1. Manager - Subhagata Chakraborty 267073
+2. Devan Nair : 224873
+3. Harshvardhan Yadav : 130669
+4. Ayan Banerjee : 318300
+5. Jayadev Challapally : 70505
+6. Harsh Garg : 544105
+7. Praveen Kumar : 633472
+8. Nikhil Grover : 1279377
+Enter Vice Captain: 6
+
+Aston Villa FC
+1. Manager - Dhruvan Sharma 666640
+2. Pratyush Sahoo: 409893
+3. Adarsh Kamath: 88605
+4. Sunil Kini: 657493
+5. Yogesh Nagarajan: 454518
+6. Ranjith Joy: 138528
+7. Shivam Dabas: 500711
+8. Ashish Kamath 784932
+Enter Vice Captain: 4
+
+AFC Bournemouth
+1. Manager - Viraj Shahv 694657
+2. Ishan Joshi: 760270
+3. Gopalakrishanan N: 700075
+4. Puru Varma: 821456
+5. Yash Thawani: 631469
+6. Srinath Rajamohan: 1208643
+7. Pavan Raga: 757741
+8. Yadnesh Kuveskar: 600153
+Enter Vice Captain: 4
+
+Chelsea FC
+1. Manager - Dhanil Parwani 420918
+2. Satpal Daryanani - 415488
+3. Ciril John -  6150
+4. Arvind Kumar - 372094
+5. Hardik Nagar - 25558
+6. Arvind Lakshmanan - 3062042
+7. Ankit Kuveshkar - 716774
+8. Mohit Pinkman - 387810
+Enter Vice Captain: 6
+
+Crystal Palace FC
+1. Manager - Fahad Zaman 451481
+2. Sugeeth Gopinathan - 400280
+3. Rohan Fernandes - 185561
+4. Ajith Moorthy - 580009
+5. Syed Muhammad Ali Jaffri - 141148
+6. Ashish Anand Khalkho - 947078
+7. Vedant Redkar - 224694
+8. Farid Khan - 146777
+Enter Vice Captain: 7
+
+Everton FC
+1. Manager - Sahil Sankhe 712220
+2. Abhishek Bare - 573785
+3. Parth Gada - 229101
+4. Aditya Vikram Godawat - 148669
+5. Ravi Manglani - 521789
+6. Venkateshwaran Namdev- 196213
+7. Viggie Devadiga- 164761
+8. Fenil Shah- 276912
+Enter Vice Captain: 2
+
+Manchester United FC
+1. Manager -Siddhesh Phansekar 133819
+2. Kiran Karanth 373923
+3. Naveen Ravi Joseph 223322
+4. Shanub Sidiq 373182
+5. Ritesh Sonthalia 185331
+6. Nikhil Kurhade 250723
+7. Rajith Raj 38637
+8. Sai Charan 381802
+Enter Vice Captain: 4
+
+Leicester City FC
+1. Manager - Nihar Joshi 67918
+2. Jugal Yadav: 576749
+3. Abhilash Nanduri: 553585
+4. Urvik Upadhyay: 628122
+5. Keval Shah: 566475
+6. Harsh Hadkia: 84226
+7. Surat Kop (Aaqib Mirza) :  559356
+8. Aamir Bakshi :  1034919
+Enter Vice Captain: 6
+
+Liverpool FC
+1. Manager - Aayush Pangotra 121140
+2. Akshay Malhotra - 486019
+3. Roomi Tarik - 385139
+4. Shiven Berry - 510900
+5. Pranavanshu Vadrevu - 740133
+6. Biju Menon - 22872
+7. Avi Bhagat - 71309
+8. Yashasvi Lv - 681059
+Enter Vice Captain: 2
+
+Manchester City FC
+1. Manager - Kirtan Viramgami 680624
+2. Vatsal Viramgami - 680195
+3. Bhavik Singh Minas - 629107
+4. Ashwin Ramesh - 25438
+5. Dhruv Taneja - 136929
+6. Namsheed Valiyakath - 36237
+7. Alan S Pillai - 168390
+8. Dishant Deepak - 506683
+Enter Vice Captain: 6
+
+Newcastle United FC
+1. Manager - Kumar Shubha 373857
+2. Bala Mohan - 232083
+3. Ghanshyam Shenoy - 582373
+4. Lalit Chaudhary - 203708
+5. Sai Samarth - 621180
+6. Ameya Datar - 952054
+7. Yogaraj Kumar - 637582
+8. Fahad Ahmed Shah - 450559
+Enter Vice Captain: 4
+
+Norwich City FC
+1. Manager - SHOUGAT ANURAG 130625
+2. Arvind Neelakanthan- 40295
+3. Jagdeesh Rajagopalan- 548392
+4. Vinayas Malagaudanvar- 396056
+5. Manish Dhimann - 587223
+6. Manoj Narasimhan - 716427
+7. Raghav Prasad - 3725
+8. Sunil Motihar - 800979
+Enter Vice Captain: 7
+
+Southampton FC
+1. Manager - Prathamesh Karve 377170
+2. Aaditya Narayan - 519546
+3. Suraj Krishnan - 12813
+4. Hrishikesh Chavan - 743853
+5. Dev Parikh - 30095
+6. Shihas Hassan - 85082
+7. Aniruddha (Anya) Warang - 394901
+8. Abhishek Belsare - 4848
+Enter Vice Captain: 3
+
+Stoke City FC
+1. Manager - Rohan Ghosh 169878
+2. Gowtham Raj - 504389
+3. Rajdeep Roy 601698
+4. Sarath Kuttappan - 1725213
+5. Chirag N Malkan - 27523
+6. Mayank Singh Mudgal - 484913
+7. Sriragh Karat - 49638
+8. Aman Gerrard Pandey - 240599
+Enter Vice Captain: 7
+
+Sunderland AFC
+1. Manager - Saurav Chakravorty 260641
+2. Aksh Singh - 302749
+3. Manish Sharma - 703582
+4. Charchit Jain - 18050
+5. Abhed Nair - 114384
+6. Saurav Sharma 732828
+7. Shivam Kalra - 716262
+8. Anirudh Dubey - 749178
+Enter Vice Captain: 7
+
+Swansea City FC
+1. Manager - Deepak Talluri 13552
+2. Mohit Hinduja - 224163
+3. Shikhar Singh - 68158
+4. Mahesh Kumar - 485915
+5. Nitin Gaur- 122034
+6. Dhanush Shetty - 1472768
+7. Rajesh Kumar Meena - 391906
+8. John Ozorio - 383025
+Enter Vice Captain: 1
+
+Tottenham Hotspur FC
+1. Manager: Bharath Kumar 686926
+2. Lakshya Duhan: 441507
+3. Prashant Kamra: 24336
+4. Nir Anjan R: 283342
+5. Shawn jose Thuruthiyil: 267597
+6. Anurag Ahuja: 500098
+7. Devasheesh Pillai: 770321
+8. Kunal Mhadgut: 603793
+Enter Vice Captain: 5
+
+Watford FC
+1. Manager- Chirag NJ 516509
+2. Nischal Prakash - 513551
+3. Pallav Mistry- 541710
+4. Tarun Aritakula-2119
+5. Jaydeep Gadhavi - 569301
+6. Anirudh Murali- 569949
+7. Raj Shah - 511783
+8. Akshay patil 164189
+Enter Vice Captain: 6
+
+West Bromwich Albion FC
+1. Manager - Muzaiyen S.M.Bijli 657950
+2. Sagar Udayan Shah - 482968
+3. Pratik Shah - 375448
+4. Nilay Saraf - 561641
+5. Jithin Chandran - 64513
+6. Siddharth Kaushal - 730713
+7. Parth Desai - 98245
+8. Sandeep Deshpande - 657767
+Enter Vice Captain: 8
+
+West Ham United FC
+1. Manager - Abhinav Gupta 378969
+2. Kaushik das - 67072
+3. Akshay Iyer- 626344
+4. Anoshi Daji - 299174
+5. Nishad Goliwadekar - 67950
+6. Mihir joshi - 976272
+7. Aaditya Sundar - 669796
+8. Tejus patil - 613158
+Enter Vice Captain: 5
+

@@ -195,7 +195,7 @@
  Anirudh Dubey
  Dhanush Shetty
  Anurag Ahuja
- INVALID (VC multiplier not applied)
+ INVALID VC
  Jithin Chandran
  Kaushik Das
  Nikhil Grover
@@ -498,3 +498,43 @@
  Anirudh Murali
  Muzaiyen Bijli
  Mihir Joshi
+ SUBHAGATA CHAKRABORTY
+ Sunil Kini
+ Puru Varma
+ ARVIND LAKSHMANAN
+ Muhammad Ali
+ Venkat Namdev
+ Aamir Bakshi
+ Pranavanshu V
+ ritesh sonthalia
+ Namsheed K S
+ Lalit Chaudhary
+ Raghav Prasad
+ Abhishek Belsare
+ Rajdeep Roy
+ Manish Sharma
+ Nitin Gaur
+ Lakshya Duhan
+ Nischal Prakash
+ Sandeep Deshpande
+ Nishad Goliwadekar
+ Harsh Garg
+ Sunil Kini
+ Puru Varma
+ ARVIND LAKSHMANAN
+ Vedant  Redkar
+ abhishek bare
+ harsh hadkia
+ Akshay M
+ Shanub Sidiq
+ Namsheed K S
+ Lalit Chaudhary
+ Raghav Prasad
+ suraj krishnan
+ Sriragh Karat
+ shivam kalra
+ Deepak Talluri
+ Shawn Jose
+ Anirudh Murali
+ Sandeep Deshpande
+ Nishad Goliwadekar

@@ -15,34 +15,35 @@ from operator import itemgetter
 #    line=str(line)
 #    if re.match('^Vice Captain:', line):
 #       print(line)
-gw=int(sys.argv[1])
-vcop=open('vc_op.txt', 'w')
-for i in range(1,gw+1):
-    File='TeamScores/Team_Scores_gw'+str(i)+'.txt'
-    textfile = open(File, 'r')
-    matches = []
-    #reg = re.compile("^Vice Captain:")
-    for line in textfile:
+def calc_vccount(gw):
+    #gw=int(sys.argv[1])
+    vcop=open('vc_op.txt', 'w')
+    for i in range(1,gw+1):
+        File='TeamScores/Team_Scores_gw'+str(i)+'.txt'
+        textfile = open(File, 'r')
+        matches = []
+        #reg = re.compile("^Vice Captain:")
+        for line in textfile:
+            line=str(line).strip()
+            if line.startswith("Vice Captain:"):
+                #print(line)
+                print(line.split('Vice Captain:')[1],file=vcop)
+
+        textfile.close()
+    vcop.close()
+    file2=open("vc_op.txt","r")
+    linecount={}
+    for line in file2:
+
         line=str(line).strip()
-        if line.startswith("Vice Captain:"):
-            #print(line)
-            print(line.split('Vice Captain:')[1],file=vcop)
+        #print("Entering ",line)
+        if line not in linecount:
+            linecount[line] = 1
+        else:
+            linecount[line] += 1
+    #print(linecount)
 
-    textfile.close()
-vcop.close()
-file2=open("vc_op.txt","r")
-linecount={}
-for line in file2:
-
-    line=str(line).strip()
-    #print("Entering ",line)
-    if line not in linecount:
-        linecount[line] = 1
-    else:
-        linecount[line] += 1
-#print(linecount)
-
-op_file=open("ViceCaptainCountGW"+str(gw)+".txt","w")
-template = "{0:25}{1:10}"
-for k,v in sorted(linecount.items(), key=itemgetter(1), reverse=True):
-    print(template.format(k,v),file=op_file)
+    op_file=open("ViceCaptainCounts/ViceCaptainCountGW"+str(gw)+".txt","w")
+    template = "{0:25}{1:10}"
+    for k,v in sorted(linecount.items(), key=itemgetter(1), reverse=True):
+        print(template.format(k,v),file=op_file)

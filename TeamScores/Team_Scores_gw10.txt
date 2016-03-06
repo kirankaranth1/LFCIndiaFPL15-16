@@ -119,7 +119,7 @@ Total score :464.0 ~464.0
 
 Team: Watford FC
 Captain: Chirag N J
-Vice Captain: INVALID (VC multiplier not applied)
+Vice Captain: INVALID VC
 Home advantage : NO
 Team scores: [41, 35, 41, 42, 46, 56, 45, 37]
 Total score :384.0 ~384.0
