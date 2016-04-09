@@ -41,7 +41,6 @@ def get_score(id):
     points_xpath=".//*[@id='ism']/section[1]/div[2]/div[1]/div[2]/div/div[1]/div/div[1]/div"
     deductions_xpath=".//*[@id='ism']/section[1]/div[2]/div[1]/div[2]/div/div[3]/div/dl/dd[2]"
     name_xpath=".//*[@id='ism']/section[2]/h1"
- 
     t_points=int(tree.xpath(points_xpath)[0].text.strip(' \t\n\r'))
     #print(t_points)
 
