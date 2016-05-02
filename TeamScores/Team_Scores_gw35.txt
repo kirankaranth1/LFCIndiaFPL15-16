@@ -1,0 +1,140 @@
+Team: Arsenal FC
+Captain: SUBHAGATA CHAKRABORTY
+Vice Captain: Ayan Banerjee
+Home advantage : NO
+Team scores: [48, 49, 59, 52, 35, 61, 24, 38]
+Total score :440.0 ~440.0
+
+Team: Aston Villa FC
+Captain: Ashish Kamath
+Vice Captain: Dhruvan Sharma
+Home advantage : YES
+Team scores: [50, 49, 31, 51, 53, 42, 32, 38]
+Total score (VC multiplier not used):394.6 ~395.0
+
+Team: AFC Bournemouth
+Captain: Viraj Shah
+Vice Captain: yadnesh kuveskar
+Home advantage : YES
+Team scores: [60, 47, 41, 35, 51, 31, 53, 51]
+Total score :466.5 ~467.0
+
+Team: Chelsea FC
+Captain: Hardik Nagar
+Vice Captain: Hardik Nagar
+Home advantage : NO
+Team scores: [52, 54, 48, 47, 30, 35, 48, 49]
+Total score (VC multiplier not used):393.0 ~393.0
+
+Team: Crystal Palace FC
+Captain: Ashish Cody
+Vice Captain: Vedant  Redkar
+Home advantage : YES
+Team scores: [43, 41, 50, 43, 39, 36, 47, 36]
+Total score :404.5 ~405.0
+
+Team: Everton FC
+Captain: Parth Gada
+Vice Captain: Viggie Devadiga
+Home advantage : NO
+Team scores: [48, 54, 23, 49, 41, 45, 38, 29]
+Total score (VC multiplier not used):350.0 ~350.0
+
+Team: Leicester City FC
+Captain: Aamir Bakshi
+Vice Captain: Aaqib Mirza
+Home advantage : YES
+Team scores: [61, 41, 43, 38, 30, 34, 39, 48]
+Total score :413.7 ~414.0
+
+Team: Liverpool FC
+Captain: shiven berry
+Vice Captain: Avi Bhagat
+Home advantage : YES
+Team scores: [39, 29, 48, 26, 50, 40, 35, 29]
+Total score :349.5 ~350.0
+
+Team: Manchester United FC
+Captain: rajith m
+Vice Captain: Siddhesh Phansekar
+Home advantage : NO
+Team scores: [30, 37, 49, 32, 34, 35, 36, 59]
+Total score :363.0 ~363.0
+
+Team: Manchester City FC
+Captain: Dhruv Taneja
+Vice Captain: Namsheed K S
+Home advantage : YES
+Team scores: [47, 38, 48, 49, 53, 35, 55, 36]
+Total score :442.5 ~443.0
+
+Team: Newcastle United FC
+Captain: Ameya Datar
+Vice Captain: Ameya Datar
+Home advantage : NO
+Team scores: [38, 61, 48, 51, 35, 56, 45, 49]
+Total score (VC multiplier not used):439.0 ~439.0
+
+Team: Norwich City FC
+Captain: Manoj Sriram Narasimhan
+Vice Captain: Vinyas M
+Home advantage : YES
+Team scores: [58, 41, 42, 48, 46, 53, 42, 45]
+Total score :463.6 ~464.0
+
+Team: Southampton FC
+Captain: suraj krishnan
+Vice Captain: Prathamesh Karve
+Home advantage : NO
+Team scores: [47, 41, 41, 61, 56, 48, 51, 32]
+Total score :441.5 ~442.0
+
+Team: Stoke City FC
+Captain: Sriragh Karat
+Vice Captain: sarath kuttappan
+Home advantage : NO
+Team scores: [43, 17, 32, 29, 50, 48, 39, 41]
+Total score :352.5 ~353.0
+
+Team: Sunderland AFC
+Captain: shivam kalra
+Vice Captain: Anirudh Dubey
+Home advantage : YES
+Team scores: [39, 37, 37, 39, 55, 31, 40, 59]
+Total score :418.3 ~418.0
+
+Team: Swansea City FC
+Captain: John Ozorio
+Vice Captain: Rajesh Meena
+Home advantage : NO
+Team scores: [51, 31, 48, 41, 34, 32, 46, 38]
+Total score :382.0 ~382.0
+
+Team: Tottenham Hotspur FC
+Captain: Niranjan R
+Vice Captain: Kunal Mhadgut
+Home advantage : YES
+Team scores: [47, 50, 33, 57, 30, 40, 53, 44]
+Total score :444.4 ~444.0
+
+Team: Watford FC
+Captain: Anirudh Murali
+Vice Captain: Pallav Mistry
+Home advantage : NO
+Team scores: [49, 40, 50, 30, 42, 31, 26, 40]
+Total score :364.0 ~364.0
+
+Team: West Bromwich Albion FC
+Captain: Jithin Chandran
+Vice Captain: Nilay Saraf
+Home advantage : NO
+Team scores: [24, 28, 42, 43, 29, 50, 46, 42]
+Total score :354.5 ~355.0
+
+Team: West Ham United FC
+Captain: Tejus Patil
+Vice Captain: Anosh Daji
+Home advantage : YES
+Team scores: [58, 55, 42, 59, 58, 47, 58, 42]
+Total score :502.3 ~502.0
+

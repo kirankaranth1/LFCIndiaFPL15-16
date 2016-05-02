@@ -9,7 +9,43 @@ import os
 import json
 import math
 from vccount import calc_vccount
+import signal
 
+
+class TimeoutException(Exception):
+    """ Simple Exception to be called on timeouts. """
+    pass
+
+def _timeout(signum, frame):
+    """ Raise an TimeoutException.
+
+    This is intended for use as a signal handler.
+    The signum and frame arguments passed to this are ignored.
+
+    """
+    # Raise TimeoutException with system default timeout message
+    raise TimeoutException()
+
+def downloadPage(url):
+    while True:
+        # Set the handler for the SIGALRM signal:
+        signal.signal(signal.SIGALRM, _timeout)
+        # Send the SIGALRM signal in 10 seconds:
+        signal.alarm(10)
+
+        try:    
+            # Do our code:
+            # print("Getting scores of "+str(url))
+            page = requests.get(url)
+            #print("Got scores of"+str(url))
+        except TimeoutException:
+            print("Timed out: "+str(url))
+            continue
+        finally:
+            # Abort the sending of the SIGALRM signal:
+            signal.alarm(0)
+        break
+    return page
 
 def isHome(teamname,fixtures):
     for fixture in fixtures:
@@ -27,15 +63,8 @@ def isHome(teamname,fixtures):
 def get_score(id):
 
     url="http://fantasy.premierleague.com/entry/"+str(id)+"/event-history/"+str(gw)+"/"
-    while True:
-        try:
-            page = requests.get(url)
-        except requests.ConnectionError:
-            continue
-        break
-
+    page=downloadPage(url)
     
-    #page = requests.get(url)
     tree = html.parse(StringIO(page.text)).getroot()
 
     points_xpath=".//*[@id='ism']/section[1]/div[2]/div[1]/div[2]/div/div[1]/div/div[1]/div"
@@ -144,32 +173,33 @@ def getfix(gw):
 
 
 
+# echo -e "35\n4\n10\n8\n50\n7\n70\n1\n7\n7\n6\n6\n4\n1\n4\n8\n7\n8\n3\n4\n4" | ./fpl1516.py.ph8
 
-gw=raw_input("(Enter between 26 and 30) Enter gw numer: ")
+gw=raw_input("(Enter between 35 and 38) Enter gw numer: ")
 gw=int(gw)
 print("Calculating for gameweek "+str(gw))
 logfile=open('TeamScores/Team_Scores_gw'+str(gw)+'.txt','w')
 fixtures=getfix(gw)
-ars=get_team("Arsenal FC")+[4]
-av=get_team("Aston Villa FC")+[7]#
-bnm=get_team("AFC Bournemouth")+[3]#
-chl=get_team("Chelsea FC")+[4]#
-cp=get_team("Crystal Palace FC")+[4]#
-eve=get_team("Everton FC")+[7]#
-leeds=get_team("Manchester United FC")+[2]#
-leic=get_team("Leicester City FC")+[7]#
-kop=get_team("Liverpool FC")+[8]#
-cty=get_team("Manchester City FC")+[2]#
-newc=get_team("Newcastle United FC")+[1]#
-nrwch=get_team("Norwich City FC")+[8]#
-sou=get_team("Southampton FC")+[1]#
-stk=get_team("Stoke City FC")+[1]#
-sun=get_team("Sunderland AFC")+[4]#
-swn=get_team("Swansea City FC")+[7]#
-sprs=get_team("Tottenham Hotspur FC")+[6]#
-wtf=get_team("Watford FC")+[7]#
-wb=get_team("West Bromwich Albion FC")+[4]#
-wh=get_team("West Ham United FC")+[6]#
+ars=get_team("Arsenal FC")+[1]
+av=get_team("Aston Villa FC")+[8]#
+bnm=get_team("AFC Bournemouth")+[1]#
+chl=get_team("Chelsea FC")+[5]#
+cp=get_team("Crystal Palace FC")+[6]#
+eve=get_team("Everton FC")+[3]#
+leeds=get_team("Manchester United FC")+[7]#
+leic=get_team("Leicester City FC")+[8]#
+kop=get_team("Liverpool FC")+[4]#
+cty=get_team("Manchester City FC")+[5]#
+newc=get_team("Newcastle United FC")+[6]#
+nrwch=get_team("Norwich City FC")+[6]#
+sou=get_team("Southampton FC")+[3]#
+stk=get_team("Stoke City FC")+[7]#
+sun=get_team("Sunderland AFC")+[7]#
+swn=get_team("Swansea City FC")+[8]#
+sprs=get_team("Tottenham Hotspur FC")+[4]#
+wtf=get_team("Watford FC")+[6]#
+wb=get_team("West Bromwich Albion FC")+[5]#
+wh=get_team("West Ham United FC")+[8]#
 
 dict={"Manchester United FC":0,"Swansea City FC":0,"Leicester City FC":0,"Everton FC":0,"West Ham United FC":0,"Tottenham Hotspur FC":0,"West Bromwich Albion FC":0,"Sunderland AFC":0,"Stoke City FC":0,"Aston Villa FC":0,"AFC Bournemouth":0,"Watford FC":0,"Arsenal FC":0,"Crystal Palace FC":0,"Liverpool FC":0,"Southampton FC":0,"Newcastle United FC":0,"Manchester City FC":0,"Norwich City FC":0,"Chelsea FC":0}
 
